@@ -1,0 +1,14 @@
+<html>  
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        This is HBS view engine.
+        <div class="list-info">
+            {{#list ss "Request Headers"}}{{/list}}
+            {{#list tt "req.query"}}{{/list}}
+            {{#list cc "req.userinfo"}}{{/list}}
+        </div>
+        
+    </body>    
+</html>
